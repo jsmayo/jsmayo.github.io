@@ -6,12 +6,10 @@
 	<script type="text/javascript" src="paper-full.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.3/howler.js"></script>
 	<link rel="stylesheet" type="text/css" href="circles.css">
-
-
-
+<!-- Let user know what to do -->
+	<script> alert("Press any key"); </script>
 <!-- Define inlined PaperScript associate it with myCanvas -->
-<script type="text/paperscript" canvas="myCanvas">
-
+	<script type="text/paperscript" canvas="myCanvas">
 //Object to store each key's assigned color and sound file.
 	var keyData = {
 		q: {
@@ -171,12 +169,9 @@
 			color: '#2c3e50'
 		}
 	}
-
 	var circles = [];
-
 	function onKeyDown(event) {
 		if(keyData[event.key]) {
-
 			keyData[event.key].sound.play();
 			//paperjs specific size attributes to get 100% W & H
 			var maxPoint = new Point(view.size.width, view.size.height); 
@@ -191,10 +186,8 @@
 			circles.push(newCircle);
 		}
 	}
-
 		// var animatedCircle = new Path.Circle(new Point(300,300), 100);
 		// animatedCircle.fillColor = "purple";
-
  /* Each animation frame, change the fill color by hue +1
  		and scale the circles by 90%. This loops though the entire 
  		array of circles. */
@@ -216,13 +209,10 @@
 		// animatedCircle.scale(.9);
 	}
 	
-
 	
 </script>
 </head>
 <body>
-	
 <canvas id="myCanvas" resize></canvas>
-
 </body>
 </html>
