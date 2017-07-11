@@ -1,0 +1,94 @@
+body {
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: Roboto;
+}	
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24;
+	font-weight: normal;
+}
+
+input {
+	font-size: 18px;
+	color: #2980b9;
+	background: #f7f7f7;
+	/*This is to hide the very slight space gap that's visible w/o focus.
+		The border takes up the same amount of space, but is hidden. */
+	border: 3px solid rgba(0, 0, 0, 0);
+	width: 100%;
+	padding: 15px 15px 15px 20px;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+input:focus {
+	background: white;
+	border: 3px solid #2980b9;
+	outline:none;
+
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	width: 0px;
+	display:inline-block;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
+	height: 40px;
+}
+
+/*
+When hoving over an li, select the span and increase the width.
+The span holds our Icon image. 
+*/
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+
+#container {
+	background: #f7f7f7;
+	/*border: 2px solid gray;*/
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.fa-pencil-square-o {
+	float:right;
+}
