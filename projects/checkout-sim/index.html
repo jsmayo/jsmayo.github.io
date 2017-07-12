@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Checkout Simulator Project Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="thumbnail-gallery.css">
+
+</head>
+<body>
+
+<div class="container gallery-container">
+    <div id="head-container" class="container-fluid">
+        <h1>Shopping Checkout Simulator</h1>
+
+        <p class="page-description text-center">Details of the project are displayed below. Please click the images for a larger view.</p>
+    </div>
+    <div class="tz-gallery">
+
+        <div  class="row display-flex">
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/final-design.png">
+                        <img src="./imgs/final-design.png" alt="UML Design">
+                    </a>
+                    <div class="caption">
+                        <h3>Final UML Design</h3>
+                        <p>I was given the task of designing a shopping simulation program to generate conditions that would model both the average wait and shopping time of a customer in this specific client's store. Additionally, conditions for specific cart type and register classifications, such as 'Express', 'Regular', and 'Special Handling', were accounted for by manipulating parameters that modeled real world data from the client.   </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/ui.png">
+                        <img src="./imgs/ui.png" alt="User Interface">
+                    </a>
+                    <div class="caption">
+                        <h3>Basic User Interface</h3>
+                        <p>The user interface of the program allowed varying the animation speed, total number of shopping carts, and total number of checkout registers. Values for these parameters are simulated when the user clicks 'Start' and are displayed to the right of those variables after the simulation terminates. A progress bar, as well as, basic animation of the simulation are available for instant user feedback.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/timediagram.png">
+                        <img src="./imgs/timediagram.png" alt="Coast">
+                    </a>
+                    <div class="caption">
+                        <h3>Process Time Calculation</h3>
+                        <p>Calculation of the checkout time begins when the user enters the simulated register's checkout line. If there is no wait, then the process time is the total time required to complete the checkout. If there is a wait, then process time is the wait time of the customers infront of the current cart, plus the time that will be required for that cart to checkout.  </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Begin row 2 -->
+           
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/simdemo.gif">
+                            <img src="./imgs/simdemo.gif" alt="Demo">
+                        </a>
+                        <div class="caption">
+                            <h3>Brief Simulation Demo</h3>
+                            <p>Above is a very brief demo of the simulation during execution. Notice that the carts are varying in color to represent the cart type variations, as well as queueing/dequeueing from the register lines. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/completed.png">
+                            <img src="./imgs/completed.png" alt="Simulation Results">
+                        </a>
+                        <div class="caption">
+                            <h3>Results From Simulation</h3>
+                            <p>The results are visible to the right of the user interface controls, with corresponding labels to help the user identify what the data represents.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/junits.png">
+                            <img src="./imgs/junits.png" alt="Junit Test Results">
+                        </a>
+                        <div class="caption">
+                            <h3>Junit Test Results</h3>
+                            <p>Extensive testing was done on every class within the program to ensure that proper results were achieved. Line coverage results were required to be a minimum of 80%, however, 90% and above were achieved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
