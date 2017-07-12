@@ -66,6 +66,10 @@ body {
     margin: 0;
 }
 
+.tz-gallery button {
+    margin-bottom: 50px;
+}
+
 .baguetteBox-button {
     background-color: transparent !important;
 }
