@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Checkout Simulator Project Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="thumbnail-gallery.css">
+
+</head>
+<body>
+
+<div class="container gallery-container">
+    <div id="head-container" class="container-fluid">
+        <h1>Shopping Checkout Simulator</h1>
+
+        <p class="page-description text-center">Details of the project are displayed below. Please click the images for a larger view.</p>
+    </div>
+    <div class="tz-gallery">
+
+        <div  class="row display-flex">
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/uml.png">
+                        <img src="./imgs/sUML.png" alt="UML Design">
+                    </a>
+                    <div class="caption">
+                        <h3>Final UML Design</h3>
+                        <p> To be added </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/FSM.png">
+                        <img src="./imgs/sFSM.png" alt="Coast">
+                    </a>
+                    <div class="caption">
+                        <h3>Finite State Machine</h3>
+                        <p> ... </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="./imgs/ui.png">
+                        <img src="./imgs/sUI.png" alt="User Interface">
+                    </a>
+                    <div class="caption">
+                        <h3>Basic User Interface</h3>
+                        <p>The user interface of the program allowed varying the animation speed, total number of shopping carts, and total number of checkout registers. Values for these parameters are simulated when the user clicks 'Start' and are displayed to the right of those variables after the simulation terminates. A progress bar, as well as, basic animation of the simulation are available for instant user feedback.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Begin row 2 -->
+           
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/opts.png">
+                            <img src="./imgs/sOpts.png" alt="Simulation Results">
+                        </a>
+                        <div class="caption">
+                            <h3>Load, Save, Edit</h3>
+                            <p>.....</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/edit.png">
+                            <img src="./imgs/sEdit.png" alt="Simulation Results">
+                        </a>
+                        <div class="caption">
+                            <h3>Authorized Edit Menu</h3>
+                            <p>.....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="./imgs/testing.png">
+                            <img src="./imgs/sTesting.png" alt="Junit Test Results">
+                        </a>
+                        <div class="caption">
+                            <h3>Junit Test Results</h3>
+                            <p>Extensive testing was done on every class within the program to ensure that proper results were achieved. Line coverage results were required to be a minimum of 80%, however, 90% and above were achieved. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-warning pull-right" onclick="history.go(-1)">Go Back</button>
+
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
