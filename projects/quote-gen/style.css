@@ -54,8 +54,11 @@ hr {
 	margin-top: 2px;
 }
 
-.socialbuttons {
-	margin-right: 40px;
-	margin-bottom: 20px;
+a.btn.btn-secondary {
+	float: right;
+	padding-bottom: 20px;
+}
 
+#twittershare {
+	padding-right: 40px;
 }
