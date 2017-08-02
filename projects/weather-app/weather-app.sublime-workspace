@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"quote",
+				"quoteContainer\t(index.html)"
+			],
+			[
+				"disp",
+				"display-flex"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"bloc",
+				"inline-block"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"num",
+				"numberOfSquares"
+			],
+			[
+				"querySelect",
+				"querySelectorAll"
+			],
+			[
+				"pick",
+				"pickColor"
+			],
+			[
+				"backgro",
+				"backgroundColor"
+			],
+			[
+				"genera",
+				"generateRandomColors"
+			],
+			[
+				"Bac",
+				"backgroundColor"
+			],
+			[
+				"picked",
+				"pickedColor"
+			],
+			[
+				"winning",
+				"winningScore"
+			],
+			[
+				"winn",
+				"winningScore"
+			],
+			[
+				"p1",
+				"p1Display"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"female",
+				"female"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"P",
+				"placeholder\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "terminal",
+		"selected_items":
+		[
+			[
+				"terminal",
+				"Open Terminal View - Bash"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"open termin",
+				"Open Terminal View - Bash"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"show",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"packager",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageR",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 119.0,
+		"history":
+		[
+			"git commit -m \"Corrects: comment syntax in index.html\"",
+			"glue path",
+			"git add .",
+			"Git: add",
+			"git",
+			"pwd",
+			"restart"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Steven/Desktop/animated-weather-icons/css",
+		"/Users/Steven/Desktop/animated-weather-icons/js"
+	],
+	"file_history":
+	[
+		"/Users/Steven/Desktop/untitled folder/weather-widgets.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/css/style.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/js/index.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/style.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/js.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/.gitignore",
+		"/Users/Steven/GitHub/QuoteGen/index.html",
+		"/Users/Steven/GitHub/QuoteGen/js.js",
+		"/Users/Steven/GitHub/QuoteGen/style.css",
+		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace",
+		"/Users/Steven/Desktop/QuoteGen alias",
+		"/Users/Steven/GitHub/jsmayo.github.io/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/portfolio.sublime-project",
+		"/Users/Steven/GitHub/YelpCamp/app.js",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/backlog/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/terminal.glue",
+		"/Users/Steven/GitHub/YelpCamp/package.json",
+		"/Users/Steven/GitHub/jsmayo.github.io/css/styles.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/thumbnail-gallery.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/index.html",
+		"/Users/Steven/Desktop/jsmayo.github.io alias",
+		"/Users/Steven/Desktop/Portfolio",
+		"/Users/Steven/Desktop/thumbnail copy/thumbnail.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/gallery-grid.css",
+		"/Users/Steven/Dropbox/Dev/Portfolio/BootstrapGalleryTemplates 2/thumbnail/index.html",
+		"/Users/Steven/Desktop/thumbnail copy/thumbnail-gallery.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/patatap-demo/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/patatap-demo/paper-full.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/css/bootstrap.min.css",
+		"/Users/Steven/Desktop/todo2.py",
+		"/Users/Steven/Desktop/todo.py",
+		"/Volumes/GP/config/speedometer/jci/opera/opera_dir/userjs/speedometer-startup.js",
+		"/Volumes/GP/config/speedometer/jci/opera/opera_dir/userjs/additionalApps.js",
+		"/Users/Steven/GitHub/coffee-and-code/styles.css",
+		"/P23X/SAMPLES/TESTKEYS.ASM",
+		"/Users/Steven/Desktop/original_msg.txt",
+		"/P23X/KEY/key.asm",
+		"/P23X/HELLO/hellom.asm",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/assets/css/todos.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/index.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_19_PatatapProject/circles.css",
+		"/Users/Steven/Desktop/test.html",
+		"/Users/Steven/Downloads/AnimatedHeaderBackgrounds/index2.html",
+		"/Users/Steven/Desktop/test.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_19_PatatapProject/circles.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_17_jQuery-Events/effects.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/ScoreKeeper/ScoreKeeper.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/Todo/todo.html",
+		"/Users/Steven/Desktop/Photo - Google+.webarchive",
+		"/Users/Steven/Desktop/particlesjs-config.json",
+		"/Users/Steven/Desktop/particles.js-master/demo/particlesjs-config.json",
+		"/Users/Steven/Desktop/particles.js-master/demo/particles.json",
+		"/Users/Steven/Desktop/style.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/very-simple/_config.yml",
+		"/Users/Steven/GitHub/jsmayo.github.io/_config.yml",
+		"/Users/Steven/Desktop/untitled.html",
+		"/Users/Steven/Google Drive/Dev/Templates/devportfolio-template-master/index.html",
+		"/Users/Steven/Google Drive/Dev/Templates/devportfolio-template-master/scss/styles.scss",
+		"/Users/Steven/Google Drive/Dev/Templates/devportfolio-template-master/css/styles.css",
+		"/Users/Steven/Desktop/CodeAlong 4/circles.html",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/HTML/HTML.sublime-syntax",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/assets/js/todos.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/ColorGame/colorGame.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/assets/css/styles.css",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_17_jQuery-Events/effects.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_17_jQuery-Events/jQueryEvents.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_17_jQuery-Events/Events/events.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/basicMethods.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/jQueryExercise/exercise1.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/jQueryExercise/exercise1.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/exercise1.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/exercise1.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_16_jQuery/Linking-jQuery/jqueryDemo.html",
+		"/Users/Steven/Dropbox/Documents/Programming/PortfolioProject/portfolio.js",
+		"/Users/Steven/Dropbox/Documents/Programming/PortfolioProject/index.html",
+		"/Users/Steven/Dropbox/Documents/Programming/PortfolioProject/portfolio.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/ColorGame/colorGame.js",
+		"/Users/Steven/Google Drive/Programming/Templates/BSCreative/index.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/ColorGame/colorGame.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/Todo/eventCounter.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/Todo/todos.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/Todo/todos.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/ScoreKeeper.html",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/scoreKeeper.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/scoreKeeper.css",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/colorChanger.js",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_14_Events/colorChanger.html",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/PackageResourceViewer.sublime-settings",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_12_Selectors/selector-exercise.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_11_Arrays/list.js",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_11_Arrays/list.html",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/RemovePopup.py",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_10_Functions/solutions.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_10_Functions/solutions.js",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_9_JS_ControlFlow/game.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_9_JS_ControlFlow/game.js",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit-8-Javascript/08_Including_Scripts/script.js",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit-8-Javascript/08_Including_Scripts/index.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/PetMatchFinder/index.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/PetMatchFinder/app.css",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Package Control/package_control/package_manager.py",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/07_Image_Gallery/gallery.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/07_Image_Gallery/gallery.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/04_Navbars/navbars.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/06_Grid/grid.html",
+		"/Users/Steven/Desktop/04_Navbars/navbars.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/navbars.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/blog.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_7/blog.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/photoGrid.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/photos.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/07_ImageBlog1 2/imageLinks.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/board.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/untitled",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/04_Box_Model/boxmodel.html",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/04_Box_Model/style.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/02_More_Font_Properties/styles.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/03_Google Fonts/styles.css",
+		"/Users/Steven/Google Drive/Dropbox/Courses/Udemy/WebDev/Unit_6/03_Google Fonts/fonts.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			">\n",
+			"start",
+			"checkout-sim",
+			"checkout",
+			"row",
+			"img",
+			"menu",
+			"btn",
+			"profile",
+			"candcbg",
+			"12",
+			"06.12.15",
+			"PHPMailer Moodle",
+			"2016",
+			"code",
+			"jun 12",
+			"skill",
+			"#25383C",
+			"#ff8d23",
+			"urls",
+			">\n",
+			"square",
+			"h1",
+			"h1Color",
+			"easy",
+			"orange",
+			"col-lg-4",
+			"\t\t<"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "weather-app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
