@@ -5,27 +5,41 @@ if (navigator.geolocation) {
 		var wCode = "";
 		var temp = "";
 		//default units from api are metric
-		var tUnit = "C"
+		var tUnit = "C";
 		$.getJSON(
 			"https://fcc-weather-api.glitch.me/api/current?lat=" + lat + "&lon=" + long,
 			function(json) {
 				$("#myLoc").html(json.name + ", " + json.sys.country);
 				var temp = json.main.temp;
-				$("#myTemp").text(temp + " C");
-				
+				$(".tempNum").text(temp.toFixed(1));
+
 				// Change the temperature units
-				$("#myTemp").on('click', function() {
-					//if C >>> F 
-					if(tUnit === "C") { 
-						temp = parseFloat(temp) * 1.8 + 32;
-						tUnit = "F";
-					} else { 
-						temp = (parseFloat(temp) - 32) / 1.8;
-						tUnit = "C";
+				$(".units").on("click", function() {
+					//if C >>> F
+					//fade out temp first,
+					$(".tempNum").fadeOut(750);
+					if (tUnit === "C") {
+						// JS doesn't wait for the fade to finish
+						// so I'm using a callback to force it to wait.
+						$(".c").fadeOut(750, function() {
+							temp = parseFloat(temp) * 1.8 + 32;
+							// Faded already, so this should not show initially
+							$(".tempNum").text(temp.toFixed(1));
+							tUnit = "F";
+							$(".tempNum").fadeIn(750);
+							$(".f").fadeIn(750);
+						});
+					} else {
+						$(".f").fadeOut(750, function() {
+							temp = (parseFloat(temp) - 32) / 1.8;
+							$(".tempNum").text(temp.toFixed(1));
+							tUnit = "C";
+							$(".tempNum").fadeIn(750);
+							$(".c").fadeIn(750);
+						});
 					}
 					// Render the html
-					$("#myTemp").text(temp.toFixed(2) + " " + tUnit);
-
+					// $(".tempNum").text(temp.toFixed(1));
 				});
 				// $("#myConditions").html(json.weather[0].main + ", " + json.weather[0].description);
 				$("#myConditions").html(json.weather[0].description);
@@ -45,8 +59,6 @@ if (navigator.geolocation) {
 } else {
 	$("#myLoc").html("Cannot Determine Location");
 }
-
-
 
 function getWeatherIcon(wc) {
 	var wCode = parseInt(wc);
