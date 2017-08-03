@@ -3,11 +3,30 @@ if (navigator.geolocation) {
 		var lat = position.coords.latitude;
 		var long = position.coords.longitude;
 		var wCode = "";
+		var temp = "";
+		//default units from api are metric
+		var tUnit = "C"
 		$.getJSON(
 			"https://fcc-weather-api.glitch.me/api/current?lat=" + lat + "&lon=" + long,
 			function(json) {
 				$("#myLoc").html(json.name + ", " + json.sys.country);
-				$("#myTemp").html(json.main.temp + " Celsius");
+				var temp = json.main.temp;
+				$("#myTemp").text(temp + " C");
+				
+				// Change the temperature units
+				$("#myTemp").on('click', function() {
+					//if C >>> F 
+					if(tUnit === "C") { 
+						temp = parseFloat(temp) * 1.8 + 32;
+						tUnit = "F";
+					} else { 
+						temp = (parseFloat(temp) - 32) / 1.8;
+						tUnit = "C";
+					}
+					// Render the html
+					$("#myTemp").text(temp.toFixed(2) + " " + tUnit);
+
+				});
 				// $("#myConditions").html(json.weather[0].main + ", " + json.weather[0].description);
 				$("#myConditions").html(json.weather[0].description);
 				//get weather condition string to make compairison for custom icons
@@ -26,6 +45,8 @@ if (navigator.geolocation) {
 } else {
 	$("#myLoc").html("Cannot Determine Location");
 }
+
+
 
 function getWeatherIcon(wc) {
 	var wCode = parseInt(wc);
