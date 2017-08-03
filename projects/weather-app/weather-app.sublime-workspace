@@ -112,10 +112,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "js/index.js",
 			"settings":
 			{
-				"buffer_size": 1382,
+				"buffer_size": 2639,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -196,7 +197,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 471.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -223,8 +224,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Steven/Desktop/animated-weather-icons/css",
-		"/Users/Steven/Desktop/animated-weather-icons/js"
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/js"
 	],
 	"file_history":
 	[
@@ -423,29 +424,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": true,
+					"file": "js/index.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1382,
+						"buffer_size": 2639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2639,
+								2639
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 298.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
