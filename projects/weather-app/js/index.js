@@ -16,6 +16,7 @@ if (navigator.geolocation) {
 				// Change the temperature units
 				$(".units").on("click", function() {
 					//if C >>> F
+					$(".divide").remove();
 					//fade out temp first,
 					$(".tempNum").fadeOut(750);
 					if (tUnit === "C") {
