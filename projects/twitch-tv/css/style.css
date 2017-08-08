@@ -1,0 +1,80 @@
+body {
+	background-color: #0099ff;
+	max-width: 30%;
+	margin: 80px auto;
+}
+
+div.container {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 15px 20px 35px 20px;
+}
+
+img {
+	height: 3em;
+	border-radius: 30px;
+	margin-right: 10px;
+}
+
+#streams {
+	background-color: #0099ff;
+}
+
+div#appTitle {
+	font-family: Saira;
+	background-color: white;
+}
+
+div.rowContainer {
+	margin: 2px auto;
+	background-color: white;
+	border: 1px solid #515A5A;
+	border-radius: 10px;
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.rowContainer:hover {
+	background-color: #515A5A;
+	color: #ffffff;
+	border: 1px solid black;
+}
+
+div.streamInfo {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+div.streamStatus {
+	width: 100%;
+	padding-right: 10px;
+	color: black;
+	font-size: .80em;
+	font-style: italic;
+	text-align: right;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.rowContainer:hover #offline {
+	color: red;
+}
+.rowContainer:hover #online {
+	color: lightgreen;
+}
+/* Overriding <a> styling. Not using inherit, b/c it lacks universal support */
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}

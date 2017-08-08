@@ -1,10 +1,10 @@
 body {
 	background-image: url('https://images.unsplash.com/photo-1498592927507-51ac8b3379af?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=4032&h=2821&fit=crop&s=f08e9f8d7f6a01164ba392f5db84c676');
-    /*background-image: url("https://images.unsplash.com/photo-1486854766770-416082c9ec00?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&s=edc044a74882adf88019bd3ae602dc81");*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+	/*background-image: url("https://images.unsplash.com/photo-1486854766770-416082c9ec00?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&s=edc044a74882adf88019bd3ae602dc81");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 h1 {
@@ -65,6 +65,10 @@ h1 {
 
 #icon {
 	margin-top: 30px;
+}
+
+span.c, .f {
+	border-bottom: 1px solid white;
 }
 
 .icon {
@@ -177,7 +181,7 @@ h1 {
 	width: 3.75em;
 	height: 3.75em;
 	margin: 0.375em 0 0 -2em;
-/* 	background: currentColor; */
+	/* 	background: currentColor; */
 }
 
 .rain:after {
