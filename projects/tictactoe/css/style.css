@@ -35,6 +35,11 @@ canvas {
 	text-align: center;
 }
 
+canvas:hover {
+	background-color:#37474f;
+	color: #CFD8DC;
+}
+
 #game {
 	position: relative;
 	height: 320px;
@@ -52,6 +57,7 @@ canvas {
 }
 
 #rules {
+	border: 1px solid #3264ff;
 	position: relative;
 	width: 318px;
 	height: 318px;
@@ -61,6 +67,7 @@ canvas {
 }
 
 p {
+	padding-left: 20px;
 	font-size: 20px;
 	margin: 15px;
 	text-align: left;
@@ -69,18 +76,27 @@ p {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 35px;
+	border-bottom: 1px solid #3264ff;
 	font-family: cursive;
 	color: #3264ff;
+	padding-top: 5px;
+	text-align: center;
 }
 
 button {
 	margin-top: 15px;
-	width: 200px;
-	height: 50px;
-	font-size: 20px;
+	width: 150px;
+	height: 40px;
+	font-family: cursive;
+	font-size: 21px;
 	font-weight:bold;
 	border:1px solid white;
 	background-color:#3264ff;
 	color:#48C9B0;
+}
+
+button:hover {
+	background-color:#37474f;
+	color: #CFD8DC;
 }
