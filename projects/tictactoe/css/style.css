@@ -57,7 +57,8 @@ canvas:hover {
 }
 
 #rules {
-	border: 1px solid #3264ff;
+	background-color: #37474f;
+	border: 1px solid #ffffff;
 	position: relative;
 	width: 318px;
 	height: 318px;
@@ -71,15 +72,16 @@ p {
 	font-size: 20px;
 	margin: 15px;
 	text-align: left;
-	color: #37474F;
+	color: #CFD8DC;
 
 }
 
 h2 {
 	font-size: 35px;
-	border-bottom: 1px solid #3264ff;
+	background-color: #3264ff;
+	border-bottom: 1px solid #ffffff;
 	font-family: cursive;
-	color: #3264ff;
+	color: #CFD8DC;
 	padding-top: 5px;
 	text-align: center;
 }
