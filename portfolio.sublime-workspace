@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"game",
+				"gameOver"
+			],
+			[
 				"margin",
 				"margin-bottom"
 			],
@@ -112,30 +116,31 @@
 	"buffers":
 	[
 		{
-			"file": "projects/tictactoe/js/js.js",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Tic Tac Toe</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<body>\n\t<header>\n\t\t<h1 id=\"head\">Tic Tac Toe Game</h1>\n\t</header>\n\n\t<h1 id=\"result\"></h1>\n\n\n\t<section id=\"game\">\n\t\t<div id=\"tic\">\n\t\t\t<canvas id=\"canvas1\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas2\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas3\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<br>\n\t\t\t<canvas id=\"canvas4\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas5\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas6\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<br>\n\t\t\t<canvas id=\"canvas7\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas8\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas9\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<center> <button id=\"new\">New Game</button>\t\n\t\t\t</div>\n\n\t\t\t<div id=\"rules\">\n\t\t\t\t<h2>Rules</h2>\n\t\t\t\t<p>Each player has to take turns.</p>\n\t\t\t\t<p>The player who fills 3 consecutive rows first, wins!</p>\n\t\t\t\t<p>To start a new game at any time, simply click \"New Game\"</p>\n\t\t\t</div>\n\n\n\n\n\t\t\t<script type=\"text/javascript\" src=\"js/js.js\"></script>\n\t\t</body>\n\t\t</html>\n",
+			"file": "projects/tictactoe/index.html",
+			"file_size": 1268,
+			"file_write_time": 131485230090000000,
 			"settings":
 			{
-				"buffer_size": 1089,
+				"buffer_size": 1276,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "dd .                                                                             \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe/js$ git c\nommit -m \"Modifies: javascript of TTT game.\"                                     \n[master 51c3400] Modifies: javascript of TTT game.                               \n 1 file changed, 8 insertions(+), 2 deletions(-)                                 \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe/js$ git s\ntatus                                                                            \nOn branch master                                                                 \nYour branch is ahead of 'origin/master' by 1 commit.                             \n  (use \"git push\" to publish your local commits)                                 \nUntracked files:                                                                 \n  (use \"git add <file>...\" to include in what will be committed)                 \n                                                                                 \n        ../../../portfolio.sublime-workspace                                     \n        ../../../untitled.sublime-project                                        \n                                                                                 \nnothing added to commit but untracked files present (use \"git add\" to track)     \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe/js$ cd ..\nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe$ git add \n--all                                                                            \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe$ git stat\nus                                                                               \nOn branch master                                                                 \nYour branch is ahead of 'origin/master' by 1 commit.                             \n  (use \"git push\" to publish your local commits)                                 \nChanges to be committed:                                                         \n  (use \"git reset HEAD <file>...\" to unstage)                                    \n                                                                                 \n        new file:   ../../portfolio.sublime-workspace                            \n        new file:   ../../untitled.sublime-project                               \n                                                                                 \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe$ git comm\nit -m \"Modifies: javascript of TTT game.\"                                        \n[master 11cd43f] Modifies: javascript of TTT game.                               \n 2 files changed, 878 insertions(+)                                              \n create mode 100644 portfolio.sublime-workspace                                  \n create mode 100644 untitled.sublime-project                                     \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe$ git push\n -u origin master                                                                \nCounting objects: 10, done.                                                      \nDelta compression using up to 4 threads.                                         \nCompressing objects: 100% (9/9), done.                                           \nWriting objects: 100% (10/10), 5.33 KiB | 0 bytes/s, done.                       \nTotal 10 (delta 5), reused 0 (delta 0)                                           \nremote: Resolving deltas: 100% (5/5), completed with 4 local objects.            \nTo https://github.com/jsmayo/jsmayo.github.io.git                                \n   178ae7f..11cd43f  master -> master                                            \nBranch master set up to track remote branch master from origin.                  \nSteven@Stevens-MacBook-Air:~/GitHub/jsmayo.github.io/projects/tictactoe$         \n",
+			"file": "projects/tictactoe/js/js.js",
 			"settings":
 			{
-				"buffer_size": 4018,
-				"line_ending": "Unix",
-				"name": "Terminal (bash)",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 3656,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "projects/tictactoe/index.html",
+			"file": "projects/tictactoe/css/style.css",
 			"settings":
 			{
-				"buffer_size": 1268,
+				"buffer_size": 1420,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -253,6 +258,7 @@
 	"expanded_folders":
 	[
 		"/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe/css",
 		"/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe/js"
 	],
 	"file_history":
@@ -448,442 +454,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "projects/tictactoe/js/js.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1089,
-								1089
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4018,
-						"regions":
-						{
-							"1,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										82,
-										88
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"1,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										109,
-										156
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"1,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										89,
-										109
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"13,8":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1074,
-										1110
-									]
-								],
-								"scope": "terminalview.black_red"
-							},
-							"14,8":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1156,
-										1189
-									]
-								],
-								"scope": "terminalview.black_red"
-							},
-							"17,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1394,
-										1400
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"17,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1421,
-										1468
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"17,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1401,
-										1421
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"18,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1476,
-										1482
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"18,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1503,
-										1547
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"18,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1483,
-										1503
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"20,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1640,
-										1646
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"20,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1667,
-										1711
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"20,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1647,
-										1667
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"28,8":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2304,
-										2349
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"29,8":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2386,
-										2428
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"31,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2542,
-										2548
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"31,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2569,
-										2613
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"31,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2549,
-										2569
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"37,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3034,
-										3040
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"37,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3061,
-										3105
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"37,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3041,
-										3061
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"48,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3936,
-										3942
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"48,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3963,
-										4007
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"48,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3943,
-										3963
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"5,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										410,
-										416
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"5,27":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										437,
-										484
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"5,7":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										417,
-										437
-									]
-								],
-								"scope": "terminalview.black_green"
-							}
-						},
-						"selection":
-						[
-							[
-								4009,
-								4009
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_complete_commit_on_tab": false,
-							"caret_style": "blink",
-							"color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
-							"default_dir": "/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe",
-							"draw_centered": false,
-							"draw_indent_guides": false,
-							"draw_white_space": "none",
-							"gutter": false,
-							"highlight_line": false,
-							"scroll_past_end": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"terminal_view": true,
-							"terminal_view_activate_args":
-							{
-								"cmd": "/bin/bash -l",
-								"cwd": "/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe/js",
-								"keep_open": false,
-								"syntax": null,
-								"title": "Terminal (bash)"
-							},
-							"terminal_view_last_cursor_pos":
-							[
-								48,
-								73
-							],
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "projects/tictactoe/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1268,
+						"buffer_size": 1276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								151,
+								151
 							]
 						],
 						"settings":
@@ -895,7 +483,66 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "projects/tictactoe/js/js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2166,
+								2166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 973.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "projects/tictactoe/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 573.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

@@ -15,18 +15,18 @@ header {
 
 #head{
 	text-align: center;
-	margin: 30px;
+	margin: 15px;
 	font-size: 50px;
 	font-family: cursive;
 	color: #3264ff;
 }
 
 h1#result {
-	 font-size: 30px;
-	 font-family: cerdana;
-	 color: white;
-	 text-align: center;
-	 margin-bottom: 30px;
+	font-size: 30px;
+	font-family: cursive;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 canvas {
@@ -61,7 +61,7 @@ canvas:hover {
 	border: 1px solid #ffffff;
 	position: relative;
 	width: 318px;
-	height: 318px;
+	height: 312px;
 	text-align: left;
 	display:inline-block;
 	float: right;
@@ -101,4 +101,20 @@ button {
 button:hover {
 	background-color:#37474f;
 	color: #CFD8DC;
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
 }

@@ -78,7 +78,7 @@ n.addEventListener("click", newGame);
 				ctx.beginPath();
 				// arc arguments(CENTER coords, radius, radian range 0-2pi, draw CCW?)
 				ctx.arc(50,50, 32, 0, 2 * Math.PI, false);
-				ctx.strokeStyle = "#37474f";
+				ctx.strokeStyle = "#48C9B0";
 				ctx.stroke();
 				ctx.closePath();
 				symbol[num-1] = 'O';
@@ -97,7 +97,7 @@ n.addEventListener("click", newGame);
 					(symbol[winner[z][1]] == whoPlayed) && 
 					(symbol[winner[z][2]] == whoPlayed)) {
 									// Report the results :)
-								document.getElementById("result").textContent = "Player " + whoPlayed + " has won the game!!";
+								document.getElementById("result").textContent = "Player " + whoPlayed + " has won the game!";
 								gameOver = true;
               }
             }
