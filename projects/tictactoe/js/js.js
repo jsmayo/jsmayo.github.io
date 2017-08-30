@@ -16,8 +16,8 @@ window.onload = function() {
 	symbol = ['','','','','','','','',''];
 	winner = [ [0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]];
 // new game button
-	var n = document.getElementById("new");
-	n.addEventListener("click", newGame);
+var n = document.getElementById("new");
+n.addEventListener("click", newGame);
 	//remember, adding ()s will cause the function to run, this is a REFERENCE.
 	function newGame() {
 		// built JS in refresh call 
@@ -30,10 +30,10 @@ window.onload = function() {
 	});
 
 	function boxClick(boxNum) {
-		box = doucument.getElementById(numId);
+		box = document.getElementById(boxNum);
 		ctx = box.getContext("2d");
 
-		switch(numId) {
+		switch(boxNum) {
 			case "canvas1": num = 1;
 			break;
 			case "canvas2": num = 2;
@@ -52,19 +52,61 @@ window.onload = function() {
 			break;
 			case "canvas9": num = 9;
 			break;
+    }
 
-		}
+    
 
-		if(filled[num-1] == false) && gameOver == false) {
-			if(turn%2 != 0){
-				ctx.beginBath();
+    if(filled[num-1] == false && gameOver == false) {
+			// If even turn, draw an X in the canvas that was selected
+			if(turn % 2 != 0){
+				ctx.beginPath();
 				ctx.moveTo(15,15);
 				ctx.lineTo(85,85);
+				// MOVE TO moves the position without connecting a line.
+				// LINE TO will have a line connected if used.
+				ctx.moveTo(85,15);
+				ctx.lineTo(15,85);
+				ctx.strokeStyle = "#CFD8DC";
+				// This is what shows the stroke after making the path
+				ctx.stroke();
 				ctx.closePath();
-			else ;
-		}
-		else {
+				// Change the array position that tracks symbols per position to X
+				symbol[num-1] = 'X';
+			}
+			else {
+				// Draw a circle inside the canvas
+				ctx.beginPath();
+				// arc arguments(CENTER coords, radius, radian range 0-2pi, draw CCW?)
+				ctx.arc(50,50, 32, 0, 2 * Math.PI, false);
+				ctx.strokeStyle = "#37474f";
+				ctx.stroke();
+				ctx.closePath();
+				symbol[num-1] = 'O';
+			}
 
-		}
-	}
+			// increment the turn
+			turn++;
+			// change the filled status to TRUE
+			filled[num-1] = true;
+			//keep trach of each symbol for the winner check
+			var whoPlayed = symbol[num-1];
+			//CHECK FOR THE WINNER AT THE END OF EACH TURN!
+			for(var z = 0; z < winner.length; z++) {
+				/*winner is an array of arrays, which holds the winning combinations that a player must have to win the game. Go through each index and check the index at the second array index for a filled value. */
+				if((symbol[winner[z][0]] == whoPlayed) && 
+					(symbol[winner[z][1]] == whoPlayed) && 
+					(symbol[winner[z][2]] == whoPlayed)) {
+									// Report the results :)
+								document.getElementById("result").textContent = "Player " + whoPlayed + " has won the game!!";
+								gameOver = true;
+              }
+            }
+            if(turn > 9) document.getElementById("result").textContent = "Welp... Let's just say you both win?";
+            
+          }
+
+   //outer else if statment for when the gameOver is true
+   else if(gameOver == true) alert("No can do, because the game's over. Start a new game by clicking 'New Game'");
+   else alert("Woah now, this isn't chess!! Select an empty position!");
+ }
 }
