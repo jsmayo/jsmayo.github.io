@@ -116,13 +116,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Tic Tac Toe</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<body>\n\t<header>\n\t\t<h1 id=\"head\">Tic Tac Toe Game</h1>\n\t</header>\n\n\t<h1 id=\"result\"></h1>\n\n\n\t<section id=\"game\">\n\t\t<div id=\"tic\">\n\t\t\t<canvas id=\"canvas1\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas2\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas3\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<br>\n\t\t\t<canvas id=\"canvas4\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas5\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas6\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<br>\n\t\t\t<canvas id=\"canvas7\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas8\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<canvas id=\"canvas9\" width=\"100\" height=\"100\"></canvas>\n\t\t\t<center> <button id=\"new\">New Game</button>\t\n\t\t\t</div>\n\n\t\t\t<div id=\"rules\">\n\t\t\t\t<h2>Rules</h2>\n\t\t\t\t<p>Each player has to take turns.</p>\n\t\t\t\t<p>The player who fills 3 consecutive rows first, wins!</p>\n\t\t\t\t<p>To start a new game at any time, simply click \"New Game\"</p>\n\t\t\t</div>\n\n\n\n\n\t\t\t<script type=\"text/javascript\" src=\"js/js.js\"></script>\n\t\t</body>\n\t\t</html>\n",
 			"file": "projects/tictactoe/index.html",
-			"file_size": 1268,
-			"file_write_time": 131485230090000000,
 			"settings":
 			{
-				"buffer_size": 1276,
+				"buffer_size": 1299,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -131,7 +128,7 @@
 			"file": "projects/tictactoe/js/js.js",
 			"settings":
 			{
-				"buffer_size": 3656,
+				"buffer_size": 3655,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -140,7 +137,7 @@
 			"file": "projects/tictactoe/css/style.css",
 			"settings":
 			{
-				"buffer_size": 1420,
+				"buffer_size": 1701,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -454,7 +451,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -463,15 +460,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1276,
+						"buffer_size": 1299,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								151,
-								151
+								0,
+								1299
 							]
 						],
 						"settings":
@@ -483,7 +480,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -492,28 +489,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3656,
+						"buffer_size": 3655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2166,
-								2166
+								0,
+								3655
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 973.0,
+						"translation.y": 1048.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -522,7 +519,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1420,
+						"buffer_size": 1701,
 						"regions":
 						{
 						},
@@ -530,7 +527,7 @@
 						[
 							[
 								0,
-								1420
+								1701
 							]
 						],
 						"settings":
@@ -539,10 +536,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 573.0,
+						"translation.y": 1063.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
