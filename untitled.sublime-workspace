@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"queryS",
+				"querySelector\t( selectors: DOMString ): Element Element"
+			],
+			[
+				"querySel",
+				"querySelectorAll\t( selectors: DOMString ): NodeList Element"
+			],
+			[
+				"add",
+				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
+			],
+			[
+				"query",
+				"querySelector\t( selectors: DOMString ): Element (Selectors) Element"
+			],
+			[
+				"upd",
+				"updateButton"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"category",
+				"category.querySelectorAll('a"
+			],
+			[
+				"tota",
+				"totalYears"
+			],
+			[
+				"minArr",
+				"minArr"
+			],
+			[
+				"space",
+				"spaceCount\t(print.c)"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"quote",
+				"quoteContainer\t(index.html)"
+			],
+			[
+				"disp",
+				"display-flex"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"bloc",
+				"inline-block"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"num",
+				"numberOfSquares"
+			],
+			[
+				"querySelect",
+				"querySelectorAll"
+			],
+			[
+				"pick",
+				"pickColor"
+			],
+			[
+				"backgro",
+				"backgroundColor"
+			],
+			[
+				"genera",
+				"generateRandomColors"
+			],
+			[
+				"Bac",
+				"backgroundColor"
+			],
+			[
+				"picked",
+				"pickedColor"
+			],
+			[
+				"winning",
+				"winningScore"
+			],
+			[
+				"winn",
+				"winningScore"
+			],
+			[
+				"p1",
+				"p1Display"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"female",
+				"female"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"P",
+				"placeholder\tAttr"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 205.0,
+		"last_filter": "termianl",
+		"selected_items":
+		[
+			[
+				"termianl",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termina",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"fixmy",
+				"FixMyJS"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"js g",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"termian",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"default",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"ori",
+				"Origami: Save Current Layout"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"open termin",
+				"Open Terminal View - Bash"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"show",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"packager",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageR",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 119.0,
+		"history":
+		[
+			"git commit -m \"Corrects: comment syntax in index.html\"",
+			"glue path",
+			"git add .",
+			"Git: add",
+			"git",
+			"pwd",
+			"restart"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/Users/Steven/GitHub/project-shift/tictactoe/tictactoe.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe/js/js.js",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/tictactoe/index.html",
+		"/Users/Steven/GitHub/project-shift/day3/object-exercises/exercises/001.js",
+		"/Users/Steven/GitHub/project-shift/day3/object-exercises/spec/excerciseSpec.js",
+		"/Users/Steven/GitHub/project-shift/day3/exercise1.js",
+		"/Users/Steven/GitHub/project-shift/exercise2.js",
+		"/Users/Steven/GitHub/project-shift/day3/object-exercises/README.md",
+		"/Users/Steven/GitHub/30days-projects/click-drag/index.html",
+		"/Users/Steven/GitHub/30days-projects/click-drag/style.css",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Users/Steven/GitHub/30days-projects/navStripeFollow/index.html",
+		"/Users/Steven/GitHub/30days-projects/events/index.html",
+		"/Users/Steven/GitHub/30days-projects/sticky-nav/style.css",
+		"/Users/Steven/GitHub/30days-projects/sticky-nav/index.html",
+		"/Users/Steven/GitHub/30days-projects/geoloc/node_modules/balanced-match/README.md",
+		"/Users/Steven/GitHub/30days-projects/speechSync/index.html",
+		"/Users/Steven/GitHub/30days-projects/speechSync/styles.css",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
+		"/Users/Steven/GitHub/30days-projects/geoloc/index.html",
+		"/Users/Steven/GitHub/30days-projects/geoloc/package.json",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/Steven/GitHub/30days-projects/webcam-fun/index.html",
+		"/Users/Steven/GitHub/30days-projects/speech-detection/package.json",
+		"/Users/Steven/GitHub/30days-projects/speech-detection/index.html",
+		"/Users/Steven/GitHub/30days-projects/webcam-fun/scripts.js",
+		"/Users/Steven/GitHub/30days-projects/webcam-fun/style.css",
+		"/Users/Steven/GitHub/30days-projects/array-cardio/index.html",
+		"/Users/Steven/GitHub/30days-projects/sortNoArticles/index.html",
+		"/Users/Steven/GitHub/30days-projects/loc_str-event_dele/index.html",
+		"/Users/Steven/Downloads/untitled.html",
+		"/Users/Steven/Downloads/style.css",
+		"/Users/Steven/GitHub/30days-projects/dynamic-shadow/index.html",
+		"/Users/Steven/GitHub/30days-projects/ref-or-copy/index.html",
+		"/Users/Steven/GitHub/30days-projects/scroll-n-slide/index.html",
+		"/Users/Steven/GitHub/30days-projects/html5-canvas/index.html",
+		"/Users/Steven/GitHub/30days-projects/konami/js.js",
+		"/Users/Steven/GitHub/30days-projects/konami/style.css",
+		"/Users/Steven/GitHub/30days-projects/konami/index.html",
+		"/Users/Steven/GitHub/30days-projects/custom-player/index.html",
+		"/Users/Steven/GitHub/30days-projects/custom-video-player/style.css",
+		"/Users/Steven/GitHub/30days-projects/custom-video-player/index.html",
+		"/Users/Steven/GitHub/30days-projects/shift-click/index.html",
+		"/Users/Steven/GitHub/30days-projects/ajax-autofill/index.html",
+		"/Users/Steven/GitHub/30days-projects/ajax-autofill/style.css",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Steven/GitHub/30days-projects/flexbox/index.html",
+		"/Users/Steven/GitHub/30days-projects/clock/index.html",
+		"/Users/Steven/GitHub/30days-projects/clock/script.js",
+		"/Users/Steven/GitHub/30days-projects/clock/style.css",
+		"/Users/Steven/GitHub/landing-page/index.html",
+		"/Users/Steven/GitHub/landing-page/css/style.css",
+		"/Users/Steven/GitHub/eloquent-js/FizzBuzz.js",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/13/readFile.c",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/10/sortList.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/10/sortList",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/09/fileIO.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/09/input.txt",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/09/output.txt",
+		"/Users/Steven/Dropbox/Courses/CSC230/projects/02/frame.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/projects/02/magic.c",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/06/print.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/06/print.h",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/06/Makefile",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/06/main.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/03/Makefile",
+		"/Users/Steven/Downloads/quick.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/notes/06/print.h",
+		"/Users/Steven/Dropbox/Courses/CSC230/exercises/05/total.c",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/04/sizes.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/reader.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/writer.c",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/Makefile",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/main.c",
+		"/Users/Steven/Downloads/Makefile",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/reader.h",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/03/writer.h",
+		"/Users/Steven/Dropbox/Courses/CSC230/Homework/02/#include <stdio.h>",
+		"/Users/Steven/GitHub/mathematical/css/style.css",
+		"/Users/Steven/GitHub/mathematical/js/js.js",
+		"/Users/Steven/GitHub/mathematical/index.html",
+		"/Users/Steven/Downloads/mathematical/index.html",
+		"/Users/Steven/GitHub/mathematical/.gitignore",
+		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/index.html",
+		"/Users/Steven/GitHub/wiki-clone/index2.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/js/index.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/css/style.css",
+		"/Users/Steven/Dropbox/Dev/code-snippets/animated-weather-icons/css/style.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/weather-app/index.html",
+		"/Users/Steven/Desktop/untitled folder/weather-widgets.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/style.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/js.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/quote-gen/.gitignore",
+		"/Users/Steven/GitHub/QuoteGen/index.html",
+		"/Users/Steven/GitHub/QuoteGen/js.js",
+		"/Users/Steven/GitHub/QuoteGen/style.css",
+		"/Users/Steven/GitHub/QuoteGen/index.sublime-workspace",
+		"/Users/Steven/Desktop/QuoteGen alias",
+		"/Users/Steven/GitHub/jsmayo.github.io/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/portfolio.sublime-project",
+		"/Users/Steven/GitHub/YelpCamp/app.js",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/Steven/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/backlog/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/terminal.glue",
+		"/Users/Steven/GitHub/YelpCamp/package.json",
+		"/Users/Steven/GitHub/jsmayo.github.io/css/styles.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/thumbnail-gallery.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/index.html",
+		"/Users/Steven/Desktop/jsmayo.github.io alias",
+		"/Users/Steven/Desktop/Portfolio",
+		"/Users/Steven/Desktop/thumbnail copy/thumbnail.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/checkout-sim/gallery-grid.css",
+		"/Users/Steven/Dropbox/Dev/Portfolio/BootstrapGalleryTemplates 2/thumbnail/index.html",
+		"/Users/Steven/Desktop/thumbnail copy/thumbnail-gallery.css",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/patatap-demo/index.html",
+		"/Users/Steven/GitHub/jsmayo.github.io/projects/patatap-demo/paper-full.js",
+		"/Users/Steven/GitHub/jsmayo.github.io/css/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"save",
+			"courses",
+			"twitter",
+			"My name is Jesse Steven Mayo. I am a current student and former graduate from North Carolina State University. I completed my first degree in Chemical and Bio-molecular engineering during May of 2015. Afterwards, I was hired as a Glassmaking Supervisor at Pilkington NSG group and later promoted within 6 months of employment to the position of a Chemical Coatings Process Engineer. My passion for learning, strong work ethic, leadership and management skills, attention to detail, and ability to organize and analyze data were given as feedback for my promotion. During my tenure at Pilkington NSG, I supervised as many as 25 technicians per shift, aided in programming the chemical delivery system that's used for the coating process, troubleshooted numerous bugs in the process, and continually worked in both group and solitary settings.",
+			"rbga",
+			"sliderInAt"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Terminal (bash)"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/GitHub/30days-projects/30days.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 120.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
